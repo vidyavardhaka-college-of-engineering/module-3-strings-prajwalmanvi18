@@ -10,9 +10,14 @@
 
 #include <stdio.h>
 int main() 
- //Declare the string
-printf("Enter a String: ")
+{
+char str[20];
 
+
+ //Declare the string
+printf("Enter a String: ");
+scanf("%s",str);
+printf("the string is %s",str);
                 
 return 0;
 }
